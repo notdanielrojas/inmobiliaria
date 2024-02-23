@@ -1,5 +1,4 @@
 /* Propiedades en Alquiler */
-
 const propiedades_alquiler = [
   {
     nombre: "Apartamento en el centro de la ciudad",
@@ -41,11 +40,11 @@ const propiedades_alquiler = [
   },
 
   {
-    nombre: "Apartamento de lujo en zona exclusiva",
-    src: "https://fotos.perfil.com/2018/09/21/trim/950/534/nueva-york-09212018-366965.jpg",
+    nombre: "Residencia Elysium en Zona Privilegiada",
+    src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb3BlcnR5fGVufDB8fDB8fHwy",
     descripcion:
-      "Este apartamento de lujo está ubicado en una exclusiva zona residencial",
-    ubicacion: "123 Luxury Lane, Prestige Suburb, CA 45678",
+      " Experimenta el máximo confort en este apartamento de lujo, estratégicamente ubicado en una exclusiva zona residencial.",
+    ubicacion: "123 Regal Avenue, Prestige Suburb, CA 45678",
     habitaciones: 4,
     baños: 4,
     costo: "5.000",
@@ -54,11 +53,11 @@ const propiedades_alquiler = [
   },
 
   {
-    nombre: "Penthouse de lujo con terraza panorámica",
-    src: "https://resizer.glanacion.com/resizer/fhK-tSVag_8UGJjPMgWrspslPoU=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CUXVMXQE4JD5XIXX4X3PDZAVMY.jpg",
+    nombre: "Ático Celestial con Terraza de Ensueño",
+    src: "https://images.unsplash.com/photo-1604014238170-4def1e4e6fcf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     descripcion:
-      "Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares",
-    ubicacion: "567 Skyline Avenue, Skyview City, CA 56789",
+      "Disfruta de la vida en las alturas con este penthouse de lujo que ofrece una terraza panorámica con vistas espectaculares.",
+    ubicacion: "567 Highrise Street, Skyview City, CA 56789",
     habitaciones: 3,
     baños: 3,
     costo: "3.500",
@@ -67,11 +66,11 @@ const propiedades_alquiler = [
   },
 
   {
-    nombre: "Apartamento acogedor en la montaña",
-    src: "https://cdn.bioguia.com/embed/3d0fb0142790e6b90664042cbafcb1581427139/furgoneta.jpg",
+    nombre: "Refugio Alpino: Tranquilidad en la Cima",
+    src: "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     descripcion:
-      "Este apartamento acogedor está situado en lo alto de una montaña con impresionantes vistas",
-    ubicacion: "789 Mountain Road, Summit Peaks, CA 23456",
+      "Sumérgete en la serenidad de este acogedor apartamento, situado en lo alto de una montaña con impresionantes vistas.",
+    ubicacion: "789 Summit Street, Summit Peaks, CA 23456",
     habitaciones: 2,
     baños: 1,
     costo: "1.200",
@@ -138,7 +137,6 @@ if (cardsInRowArriendo !== 0) {
 
 // Agrega el enlace después de completar el ciclo
 arriendoHTML += `<a href="./index.html" class="btn btn-dark">Volver al inicio</a>`;
-
 
 // Agrega el HTML generado al contenedor
 arriendoSection.innerHTML = arriendoHTML;

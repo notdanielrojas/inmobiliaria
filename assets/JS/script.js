@@ -38,6 +38,45 @@ const propiedades_venta = [
     smoke: false,
     pets: true,
   },
+
+  {
+    nombre: "Residencia Urbana en Zona Tranquila",
+    src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    descripcion:
+      "Disfruta de la modernidad y la tranquilidad en esta residencia urbana ubicada en una zona residencial apacible.",
+    ubicacion: "123 Serene Street, Quiet Suburb, CA 91234",
+    habitaciones: 2,
+    baños: 2,
+    costo: "3.200",
+    smoke: false,
+    pets: false,
+  },
+
+  {
+    nombre: "Apartamento Céntrico con Encanto",
+    src: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvcGVydHl8ZW58MHx8MHx8fDI%3D",
+    descripcion:
+      "Sumérgete en el encanto de este apartamento de 2 habitaciones situado en el vibrante centro de la ciudad.",
+    ubicacion: "456 Main Street, Downtown, CA 91234",
+    habitaciones: 2,
+    baños: 2,
+    costo: "3.000",
+    smoke: false,
+    pets: true,
+  },
+
+  {
+    nombre: "Apartamento con Vista al Mar y Luminosidad",
+    src: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvcGVydHl8ZW58MHx8MHx8fDI%3D",
+    descripcion:
+      "Vive la experiencia de la luminosidad y la vista al mar desde este hermoso apartamento.",
+    ubicacion: "789 Oceanfront Avenue, Coastal Cove, CA 56789",
+    habitaciones: 3,
+    baños: 3,
+    costo: "3.500",
+    smoke: true,
+    pets: true,
+  },
 ];
 
 /* Propiedades en Alquiler */
@@ -73,12 +112,51 @@ const propiedades_alquiler = [
     src: "https://images.unsplash.com/photo-1567496898669-ee935f5f647a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbmRvfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
     descripcion:
       "Este elegante condominio moderno está ubicado en una tranquila zona residencial",
-    ubicacion: "123 Main Street, Anytown, CA 91234",
+    ubicacion: " 123 Main Street, Anytown, CA 91234",
     habitaciones: 2,
     baños: 2,
-    costo: "1.200",
+    costo: "2.200",
     smoke: false,
     pets: false,
+  },
+
+  {
+    nombre: "Residencia Elysium en Zona Privilegiada",
+    src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb3BlcnR5fGVufDB8fDB8fHwy",
+    descripcion:
+      " Experimenta el máximo confort en este apartamento de lujo, estratégicamente ubicado en una exclusiva zona residencial.",
+    ubicacion: "123 Regal Avenue, Prestige Suburb, CA 45678",
+    habitaciones: 4,
+    baños: 4,
+    costo: "5.000",
+    smoke: false,
+    pets: false,
+  },
+
+  {
+    nombre: "Ático Celestial con Terraza de Ensueño",
+    src: "https://images.unsplash.com/photo-1604014238170-4def1e4e6fcf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    descripcion:
+      "Disfruta de la vida en las alturas con este penthouse de lujo que ofrece una terraza panorámica con vistas espectaculares.",
+    ubicacion: "567 Highrise Street, Skyview City, CA 56789",
+    habitaciones: 3,
+    baños: 3,
+    costo: "3.500",
+    smoke: false,
+    pets: true,
+  },
+
+  {
+    nombre: "Refugio Alpino: Tranquilidad en la Cima",
+    src: "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    descripcion:
+      "Sumérgete en la serenidad de este acogedor apartamento, situado en lo alto de una montaña con impresionantes vistas.",
+    ubicacion: "789 Summit Street, Summit Peaks, CA 23456",
+    habitaciones: 2,
+    baños: 1,
+    costo: "1.200",
+    smoke: true,
+    pets: true,
   },
 ];
 

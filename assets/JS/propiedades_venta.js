@@ -40,11 +40,11 @@ const propiedades_venta = [
   },
 
   {
-    nombre: "Condominio moderno en zona residencial",
-    src: "https://images.unsplash.com/photo-1567496898669-ee935f5f647a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbmRvfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+    nombre: "Residencia Urbana en Zona Tranquila",
+    src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     descripcion:
-      "Este elegante condominio moderno está ubicado en una tranquila zona residencial",
-    ubicacion: " 123 Main Street, Anytown, CA 91234",
+      "Disfruta de la modernidad y la tranquilidad en esta residencia urbana ubicada en una zona residencial apacible.",
+    ubicacion: "123 Serene Street, Quiet Suburb, CA 91234",
     habitaciones: 2,
     baños: 2,
     costo: "3.200",
@@ -53,11 +53,11 @@ const propiedades_venta = [
   },
 
   {
-    nombre: "Apartamento en el centro de la ciudad",
-    src: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBhcnRtZW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
+    nombre: "Apartamento Céntrico con Encanto",
+    src: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvcGVydHl8ZW58MHx8MHx8fDI%3D",
     descripcion:
-      "Este apartamento de 2 habitaciones está ubicado en el corazón de la ciudad, cerca de todo.",
-    ubicacion: "123 Main Street, Anytown, CA 91234",
+      "Sumérgete en el encanto de este apartamento de 2 habitaciones situado en el vibrante centro de la ciudad.",
+    ubicacion: "456 Main Street, Downtown, CA 91234",
     habitaciones: 2,
     baños: 2,
     costo: "3.000",
@@ -66,11 +66,11 @@ const propiedades_venta = [
   },
 
   {
-    nombre: "Apartamento luminoso con vista al mar",
-    src: "https://images.unsplash.com/photo-1669071192880-0a94316e6e09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    nombre: "Apartamento con Vista al Mar y Luminosidad",
+    src: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvcGVydHl8ZW58MHx8MHx8fDI%3D",
     descripcion:
-      "Este hermoso apartamento ofrece una vista impresionante al mar",
-    ubicacion: "456 Ocean Avenue, Seaside Town, CA 56789",
+      "Vive la experiencia de la luminosidad y la vista al mar desde este hermoso apartamento.",
+    ubicacion: "789 Oceanfront Avenue, Coastal Cove, CA 56789",
     habitaciones: 3,
     baños: 3,
     costo: "3.500",
