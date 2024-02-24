@@ -82,6 +82,7 @@ const propiedades_venta = [
 /* Array Ventas */
 const ventasSection = document.getElementById("ventas");
 let ventasHTML = "<h2>Propiedades en venta</h2><div class='row'>";
+// Generación de elementos HTML para las propiedades en venta
 
 for (let i = 0; i < 6; i++) {
   const venta = propiedades_venta[i];

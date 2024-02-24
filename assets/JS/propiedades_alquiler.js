@@ -82,7 +82,7 @@ const propiedades_alquiler = [
 /* Array Alquiler */
 const arriendoSection = document.getElementById("alquiler");
 let arriendoHTML = "<h2>Propiedades en alquiler</h2><div class='row'>";
-
+// Generación de elementos HTML para las propiedades en alquiler
 for (let i = 0; i < 6; i++) {
   const arriendo = propiedades_alquiler[i];
   arriendoHTML += `
