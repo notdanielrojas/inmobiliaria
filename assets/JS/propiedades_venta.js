@@ -81,18 +81,12 @@ const propiedades_venta = [
 
 /* Array Ventas */
 const ventasSection = document.getElementById("ventas");
-let cardsInRow = 0; // Inicializa el contador de tarjetas en la fila
-let ventasHTML = ""; // Variable para almacenar el HTML generado
+let ventasHTML = "<h2>Propiedades en venta</h2><div class='row'>";
 
-for (let venta of propiedades_venta) {
-  // Si cardsInRow es 0, comienza una nueva fila
-  if (cardsInRow === 0) {
-    ventasHTML += "<h2>Propiedades en venta</h2>";
-    ventasHTML += '<div class="row">';
-  }
-
+for (let i = 0; i < 6; i++) {
+  const venta = propiedades_venta[i];
   ventasHTML += `
-    <div class="col-md-4 mb-4">
+    <div class="col-md-4 mb-4 d-flex align-items-stretch">
       <div class="card">
         <img src="${
           venta.src
@@ -118,23 +112,8 @@ for (let venta of propiedades_venta) {
         </div>
       </div>
     </div>`;
-
-  cardsInRow++; // Incrementa el contador de tarjetas en la fila
-
-  // Si ya hay 3 tarjetas en la fila, cierra la fila y reinicia el contador
-  if (cardsInRow === 6) {
-    ventasHTML += "</div>"; // Cierra la fila
-    cardsInRow = 0; // Reinicia el contador
-  }
 }
 
-// Si el número total de tarjetas no es un múltiplo de 3, cierra la última fila
-if (cardsInRow !== 0) {
-  ventasHTML += "</div>";
-}
+ventasHTML += `</div><a href="./propiedades_venta.html" class="btn btn-dark">Ver todas las propiedades en venta</a>`;
 
-// Agrega el enlace después de completar el ciclo
-ventasHTML += `<a href="./index.html" class="btn btn-dark">Volver al inicio</a>`;
-
-// Agrega el HTML generado al contenedor
 ventasSection.innerHTML = ventasHTML;

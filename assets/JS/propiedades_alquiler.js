@@ -81,18 +81,12 @@ const propiedades_alquiler = [
 
 /* Array Alquiler */
 const arriendoSection = document.getElementById("alquiler");
-let cardsInRowArriendo = 0; // Inicializa el contador de tarjetas en la fila
-let arriendoHTML = ""; // Variable para almacenar el HTML generado
+let arriendoHTML = "<h2>Propiedades en alquiler</h2><div class='row'>";
 
-for (let arriendo of propiedades_alquiler) {
-  // Si cardsInRowArriendo es 0, comienza una nueva fila
-  if (cardsInRowArriendo === 0) {
-    arriendoHTML += "  <h2>Propiedades en alquiler</h2>";
-    arriendoHTML += '<div class="row">';
-  }
-
+for (let i = 0; i < 6; i++) {
+  const arriendo = propiedades_alquiler[i];
   arriendoHTML += `
-    <div class="col-md-4 mb-4">
+    <div class="col-md-4 mb-4 d-flex">
       <div class="card">
         <img src="${
           arriendo.src
@@ -120,23 +114,8 @@ for (let arriendo of propiedades_alquiler) {
         </div>
       </div>
     </div>`;
-
-  cardsInRowArriendo++; // Incrementa el contador de tarjetas en la fila
-
-  // Si ya hay 3 tarjetas en la fila, cierra la fila y reinicia el contador
-  if (cardsInRowArriendo === 6) {
-    arriendoHTML += "</div>"; // Cierra la fila
-    cardsInRowArriendo = 0; // Reinicia el contador
-  }
 }
 
-// Si el número total de tarjetas no es un múltiplo de 3, cierra la última fila
-if (cardsInRowArriendo !== 0) {
-  arriendoHTML += "</div>";
-}
+arriendoHTML += `</div><a href="./propiedades_alquiler.html" class="btn btn-dark">Ver todas las propiedades en alquiler</a>`;
 
-// Agrega el enlace después de completar el ciclo
-arriendoHTML += `<a href="./index.html" class="btn btn-dark">Volver al inicio</a>`;
-
-// Agrega el HTML generado al contenedor
 arriendoSection.innerHTML = arriendoHTML;
