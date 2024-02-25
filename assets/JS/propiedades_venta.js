@@ -115,6 +115,6 @@ for (let i = 0; i < 6; i++) {
     </div>`;
 }
 
-ventasHTML += `</div><a href="./propiedades_venta.html" class="btn btn-dark">Ver todas las propiedades en venta</a>`;
+ventasHTML += `</div><a href="./index.html" class="btn btn-dark">Volver al inicio</a>`;
 
 ventasSection.innerHTML = ventasHTML;

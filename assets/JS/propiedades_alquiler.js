@@ -116,6 +116,6 @@ for (let i = 0; i < 6; i++) {
     </div>`;
 }
 
-arriendoHTML += `</div><a href="./propiedades_alquiler.html" class="btn btn-dark">Ver todas las propiedades en alquiler</a>`;
+arriendoHTML += `</div><a href="./index.html" class="btn btn-dark">Volver al inicio</a>`;
 
 arriendoSection.innerHTML = arriendoHTML;
